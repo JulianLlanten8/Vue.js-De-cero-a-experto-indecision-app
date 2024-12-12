@@ -7,7 +7,7 @@
 
   <!-- Example Received Message -->
   <div v-else class="flex">
-    <div class="bg-green-400 text-black p-2 rounded-lg max-w-xs">
+    <div class="bg-gray-300 text-black p-2 rounded-lg max-w-xs">
       <span>{{ message }}</span>
       <img v-if="image" :src="image" alt="image" class="w-52 h-52 object-contain" />
     </div>

@@ -18,7 +18,7 @@ describe('useCounter', () => {
   });
 
   test('Increment counter correctly', () => {
-    const { counter, squareCounter } = useCounter(5);
+    const { counter } = useCounter(5);
 
     counter.value++;
     expect(counter.value).toBe(6);

@@ -5,8 +5,7 @@ import { ref } from "vue";
 
 export const useChat = () => {
 
-  const messages = ref<ChatMessage[]>([
-  ]);
+  const messages = ref<ChatMessage[]>([]);
 
   const getResponse = async () => {
     const res = await fetch("https://yesno.wtf/api");
