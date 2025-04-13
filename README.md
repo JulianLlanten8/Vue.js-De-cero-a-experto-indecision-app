@@ -14,7 +14,7 @@ Esta es una aplicación simple desarrollada como parte del curso "Vue.js: De cer
 *   [Vue 3](https://vuejs.org/)
 *   [Vite](https://vitejs.dev/)
 *   [TypeScript](https://www.typescriptlang.org/)
-*   [Tailwind CSS](https://tailwindcss.com/) (Opcional, si lo usaste)
+*   [Tailwind CSS](https://tailwindcss.com/)
 *   [ESLint](https://eslint.org/)
 *   [Prettier](https://prettier.io/)
 
