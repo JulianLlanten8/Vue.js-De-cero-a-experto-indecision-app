@@ -1,6 +1,6 @@
 # Indecision App (Proyecto del Curso Vue.js: De cero a experto)
 
-Esta es una aplicación simple desarrollada como parte del curso "Vue.js: De cero a experto". La aplicación ayuda a los usuarios a tomar decisiones respondiendo a sus preguntas con un "Sí" o "No" y mostrando una imagen relacionada.
+Esta es una aplicación simple desarrollada como parte del curso "Vue.js: De cero a experto" de @Klerith. La aplicación ayuda a los usuarios a tomar decisiones respondiendo a sus preguntas con un "Sí" o "No" y mostrando una imagen relacionada.
 
 ## Funcionalidades Principales
 
