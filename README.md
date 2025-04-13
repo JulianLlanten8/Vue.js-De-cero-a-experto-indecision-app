@@ -4,7 +4,7 @@ Esta es una aplicación simple desarrollada como parte del curso "Vue.js: De cer
 
 ## Funcionalidades Principales
 
-*   Permite al usuario escribir una pregunta en un campo de texto.
+*   Permite al usuario escribir una pregunta en un chat.
 *   Consume la API [Yes/No API](https://yesno.wtf/api) para obtener una respuesta aleatoria (Sí/No) y una imagen asociada.
 *   Muestra la respuesta y la imagen al usuario.
 *   Interfaz de usuario reactiva construida con Vue 3.
