@@ -1,24 +1,36 @@
-# indecision-app
+# Indecision App (Proyecto del Curso Vue.js: De cero a experto)
 
-This template should help get you started developing with Vue 3 in Vite.
+Esta es una aplicación simple desarrollada como parte del curso "Vue.js: De cero a experto" de @Klerith. La aplicación ayuda a los usuarios a tomar decisiones respondiendo a sus preguntas con un "Sí" o "No" y mostrando una imagen relacionada.
 
-## Recommended IDE Setup
+## Funcionalidades Principales
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+*   Permite al usuario escribir una pregunta en un chat.
+*   Consume la API [Yes/No API](https://yesno.wtf/api) para obtener una respuesta aleatoria (Sí/No) y una imagen asociada.
+*   Muestra la respuesta y la imagen al usuario.
+*   Interfaz de usuario reactiva construida con Vue 3.
 
-## Type Support for `.vue` Imports in TS
+## Tecnologías Utilizadas
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+*   [Vue 3](https://vuejs.org/)
+*   [Vite](https://vitejs.dev/)
+*   [TypeScript](https://www.typescriptlang.org/)
+*   [Tailwind CSS](https://tailwindcss.com/)
+*   [ESLint](https://eslint.org/)
+*   [Prettier](https://prettier.io/)
 
-## Customize configuration
+## Configuración del Proyecto
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+### Requisitos Previos
 
-## Project Setup
+*   Node.js (versión recomendada especificada en el curso o la última LTS)
+*   npm o yarn
+
+### Instalación
 
 ```sh
 npm install
-```
+# o
+yarn install
 
 ### Compile and Hot-Reload for Development
 
