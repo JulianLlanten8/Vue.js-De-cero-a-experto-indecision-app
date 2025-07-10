@@ -18,7 +18,7 @@ describe('<MessageBox />', () => {
 
     expect(wrapper.emitted('sendMessage')?.[0]).toEqual([message]);
 
-    expect((wrapper.vm as any).message).toBe('');
+    expect((wrapper.vm as unknown as { message: string }).message).toBe('');
   });
 
   test('emits send event when keypress enter is trigger clicked whith message value', async () => {

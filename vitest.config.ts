@@ -7,6 +7,10 @@ export default mergeConfig(
     test: {
       environment: 'jsdom',
       globals: true,
+      include: ['tests/**/*.test.ts'],
+      typecheck: {
+        tsconfig: './tsconfig.app.json'
+      }
     },
   }),
 );

@@ -1,5 +1,5 @@
 import { useChat } from "@/composables/useChat";
-
+import { vi } from "vitest";
 
 describe('useChat', async () => {
   test('add message corrwctly when onmessage is called', async () => {
@@ -60,9 +60,9 @@ describe('useChat', async () => {
       image: 'https://yesno.wtf/assets/yes/2.gif',
     };
 
-    (window as any).fetch = vi.fn(async () => ({
-      json: async () => mockResponse,
-    }));
+    global.fetch = vi.fn().mockResolvedValue({
+      json: vi.fn().mockResolvedValue(mockResponse),
+    } as unknown as Response);
 
     const test = 'Quieres salir conmigo?';
     const { messages, onMessage } = useChat();
